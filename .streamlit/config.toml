@@ -1,0 +1,28 @@
+# CleanSchema — Streamlit configuration
+# These defaults enforce the privacy posture described in README.md.
+
+[server]
+# Bind to localhost only — never accept inbound connections from the network.
+address = "127.0.0.1"
+port = 8501
+headless = false
+runOnSave = false
+# Reasonable upload cap. Bump locally if you have larger files.
+maxUploadSize = 500
+
+[browser]
+# Hard NO on Streamlit's optional usage telemetry.
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[theme]
+base = "dark"
+primaryColor = "#E63946"
+backgroundColor = "#0a0a0a"
+secondaryBackgroundColor = "#161616"
+textColor = "#e0e0e0"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = true

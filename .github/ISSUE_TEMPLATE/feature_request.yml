@@ -1,0 +1,58 @@
+name: 💡 Feature request
+description: Suggest a new detector, generator, or capability.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! Two things first:
+        - **Privacy non-negotiables** are listed in [README.md](../../blob/main/README.md#privacy). Features that break those will be declined.
+        - For new **detection rules**, the fastest path to merge is a PR with both rule + test. See [CONTRIBUTING.md](../../blob/main/CONTRIBUTING.md).
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Real-world scenario. "I have to share X with Y and currently I have to..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of feature?
+      options:
+        - New detection category (e.g., crypto wallet, IBAN, license plate)
+        - New synthesizer/generator
+        - New file format support (Parquet, JSON-lines, etc.)
+        - CLI / scripting capability
+        - UI improvement
+        - Performance / memory
+        - Docs / examples
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work?
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Additional context, mockups, links
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd be willing to open a PR for this

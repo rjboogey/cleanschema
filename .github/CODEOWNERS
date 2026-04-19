@@ -1,0 +1,11 @@
+# Default owner for everything in the repo
+* @rjboogey
+
+# Detection rules — extra eyes on PII handling
+/detector.py @rjboogey
+/synthesizer.py @rjboogey
+/tests/ @rjboogey
+
+# Privacy-critical files — require review
+/SECURITY.md @rjboogey
+/.streamlit/config.toml @rjboogey

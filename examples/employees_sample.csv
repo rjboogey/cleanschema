@@ -1,0 +1,21 @@
+employee_id,first_name,last_name,email,phone,ssn,salary,department,hire_date,status
+E1000,Jennifer,Martinez,j.martinez@acme.com,(854) 314-1409,859-45-5012,98143,Finance,2020-11-24,on_leave
+E1001,Marcus,Chen,m.chen@acme.com,(289) 804-7912,132-13-2535,98905,Sales,2024-01-18,active
+E1002,Priya,Shah,p.shah@acme.com,(933) 865-9928,529-38-8359,105053,Design,2025-07-11,active
+E1003,David,Wright,d.wright@acme.com,(359) 420-6514,204-21-7224,85940,Operations,2024-05-26,active
+E1004,Aisha,Patel,a.patel@acme.com,(947) 670-9785,227-58-2291,107962,Sales,2021-12-03,active
+E1005,Carlos,Rivera,c.rivera@acme.com,(877) 433-5741,181-39-2654,125277,Marketing,2025-06-06,active
+E1006,Sophie,Kim,s.kim@acme.com,(563) 414-5374,818-97-2169,94375,Finance,2021-03-15,active
+E1007,Derek,Okonkwo,d.okonkwo@acme.com,(476) 855-4598,801-51-1916,97262,Operations,2023-05-03,active
+E1008,Hana,Yoshida,h.yoshida@acme.com,(780) 935-6155,317-93-9179,126758,Design,2022-03-08,on_leave
+E1009,Luis,Navarro,l.navarro@acme.com,(751) 469-8019,697-61-6930,98133,Sales,2023-02-25,active
+E1010,Renee,Kowalski,r.kowalski@acme.com,(312) 356-3621,911-97-7916,86152,Marketing,2024-08-17,active
+E1011,Tomás,Silva,t.silva@acme.com,(766) 211-2876,798-78-5371,113913,Operations,2023-03-15,active
+E1012,Emma,OBrien,e.obrien@acme.com,(939) 936-5315,612-32-9317,85444,Finance,2024-10-07,active
+E1013,Aaron,Goldberg,a.goldberg@acme.com,(582) 980-3646,652-77-1009,117002,Engineering,2020-06-27,active
+E1014,Ling,Wu,l.wu@acme.com,(445) 259-4946,999-82-2290,86981,Engineering,2024-03-05,active
+E1015,Naomi,Blackwood,n.blackwood@acme.com,(762) 369-5342,640-87-7932,101417,Finance,2025-04-23,active
+E1016,Ibrahim,Ali,i.ali@acme.com,(608) 887-7118,548-76-8397,85030,Design,2020-06-01,on_leave
+E1017,Sarah,Thompson,s.thompson@acme.com,(767) 435-4608,107-19-1964,97552,Engineering,2022-02-17,active
+E1018,Ravi,Krishnan,r.krishnan@acme.com,(485) 885-8953,319-79-3167,139990,Marketing,2023-04-04,active
+E1019,Mikhail,Volkov,m.volkov@acme.com,(874) 641-6804,533-62-8651,76806,Engineering,2023-12-11,active

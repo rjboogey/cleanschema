@@ -1,0 +1,82 @@
+name: 🐛 Bug report
+description: Something broke. Tell us how to reproduce it.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report! Please don't paste real data — CleanSchema's whole point is that data stays on your machine.
+
+  - type: input
+    id: version
+    attributes:
+      label: CleanSchema version / commit
+      description: Run `git log -1 --format=%H` in your repo, or paste the release tag.
+      placeholder: "v1.2.0  or  3a4b5c6"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other (note in description)
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      description: Output of `python3 --version`
+      placeholder: "Python 3.11.5"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+      description: Paste any tracebacks. Redact any real values.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Drop a file with columns: ...
+        2. Click ...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: file_shape
+    attributes:
+      label: File shape (no real data!)
+      description: Column names + row count. Example column values can be fake.
+      placeholder: "847 rows × 12 columns. Columns: id, name, email, salary, dept..."
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have NOT included real names, emails, SSNs, or other PII in this report
+          required: true
+        - label: I have searched existing issues and this isn't a duplicate
+          required: true

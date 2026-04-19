@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Security vulnerability
+    url: mailto:security@drjonesy.com
+    about: Please report security issues privately, not as a public issue.
+  - name: 💬 Discussions
+    url: https://github.com/rjboogey/cleanschema/discussions
+    about: Questions, ideas, show-and-tell.
+  - name: 📚 Read the docs
+    url: https://github.com/rjboogey/cleanschema#readme
+    about: Most "how do I..." questions are answered in the README.
