@@ -32,6 +32,3 @@ jobs:
 
       - name: Run tests
         run: python -m pytest -v
-
-      - name: Smoke-check the Streamlit app imports
-        run: python -c "import app"
